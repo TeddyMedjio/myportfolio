@@ -7,28 +7,28 @@ import Link from "next/link";
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[60px]  ">
+    <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[80px] 2xl:py-[30px]  ">
       <div className=" flex flex-row lg:flex-col items-center justify-between w-full h-full ">
-        <div className=" m-5 md:mx-10 lg:mx-0 flex items-center justify-between w-full lg:block lg:w-auto ">
-          <Link href="/" className="2xl:w-[228px] 2xl:h-[243px]">
+        <div className=" px-8 py-10 lg:px-0 lg:py-0 flex items-center justify-between w-full lg:block lg:w-1/2 ">
+          <Link href="/">
             <Image
               src="/logo.svg"
-              height={128}
-              width={143}
+              height={148}
+              width={163}
               alt="logo"
-              className="2xl:h-full 2xl:w-full hidden md:block"
+              className="2xl:h-full 2xl:w-full hidden lg:block"
             />
             <Image
               src="/logo_mobile.svg"
               height={59}
               width={216}
               alt="logo"
-              className="2xl:h-full 2xl:w-full md:hidden"
+              className="2xl:h-full 2xl:w-full lg:hidden"
             />
           </Link>
 
           {/* Desktop menu */}
-          <div className="mt-[80px] space-y-12  lg:inline-block hidden ">
+          <div className="lg:mt-[80px] 2xl:mt-0 space-y-12  lg:block hidden ">
             <Link href="/" className="flex items-center group">
               <svg
                 width="24"
@@ -67,7 +67,7 @@ const Navbar = () => {
               </p>
             </Link>
 
-            <Link href="/" className="flex items-center group">
+            <Link href="/about" className="flex items-center group">
               <svg
                 width="24"
                 height="24"
@@ -191,7 +191,10 @@ const Navbar = () => {
                     <span>Projets</span>
                   </Link>
                 </li>
-                <Link href="/" className="medium-48 text-gray-300 uppercase ">
+                <Link
+                  href="/about"
+                  className="medium-48 text-gray-300 uppercase "
+                >
                   <span>About</span>
                 </Link>
 
