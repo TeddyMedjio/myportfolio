@@ -56,13 +56,9 @@ const Front = () => {
               bonne expérience client est primoridiale.
             </p>
             <div className=" self-start">
-              <Link
-                href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
-                target="_blank"
-                className="flex items-center mt-5"
-              >
+              <Link href="/about" className="flex items-center mt-5">
                 <p className="text-green regular-18 2xl:text-[20px] 2xl:leading-[28px] mr-2 hover:underline transition-all delay-300 ease-in-out">
-                  Me Contacter
+                  Savoir plus
                 </p>{" "}
                 <Image
                   src="/arrow.svg"
