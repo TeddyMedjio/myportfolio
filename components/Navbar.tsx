@@ -1,12 +1,16 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[60px] ">
+    <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[60px]  ">
       <div className=" flex flex-row lg:flex-col items-center justify-between w-full h-full ">
         <div className=" m-5 md:mx-10 lg:mx-0 flex items-center justify-between w-full lg:block lg:w-auto ">
-          <div className="2xl:w-[228px] 2xl:h-[243px]">
+          <Link href="/" className="2xl:w-[228px] 2xl:h-[243px]">
             <Image
               src="/logo.svg"
               height={128}
@@ -21,7 +25,9 @@ const Navbar = () => {
               alt="logo"
               className="2xl:h-full 2xl:w-full md:hidden"
             />
-          </div>
+          </Link>
+
+          {/* Desktop menu */}
           <div className="mt-[80px] space-y-12  lg:inline-block hidden ">
             <Link href="/" className="flex items-center group">
               <svg
@@ -87,7 +93,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/in/jean-claude-nganmedjio-603995a1/"
+              href="mailto:hello@medjio.me"
               target="_blank"
               className="flex items-center group"
             >
@@ -145,15 +151,59 @@ const Navbar = () => {
           </div>
 
           {/* mobile menu */}
-          <Link href="/">
-            <Image
-              src="/menu.svg"
-              height={34}
-              width={34}
-              alt="hamburger menu"
-              className="lg:hidden"
-            />
-          </Link>
+          <section className=" flex lg:hidden">
+            <div
+              className="lg:hidden space-y-2 cursor-pointer  py-4 "
+              onClick={() => setIsNavOpen((prev) => !prev)}
+            >
+              <span className="block h-0.5 w-6 rounded bg-white"></span>
+              <span className="block h-0.5 w-6 rounded bg-white"></span>
+              <span className="block h-0.5 w-6 rounded bg-white"></span>
+            </div>
+            <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+              <div
+                className="absolute top-0 right-0 pt-8 md:pt-[68px] pr-4 md:pr-9 cursor-pointer"
+                onClick={() => setIsNavOpen(false)}
+              >
+                <svg
+                  className="h-8 w-8 text-white"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </div>
+              <ul className="flex flex-col gap-10 w-full">
+                <Link href="/" className="medium-48 text-gray-300 uppercase ">
+                  <span>Home</span>
+                </Link>
+
+                <li>
+                  <Link
+                    href="/work"
+                    className="medium-48 text-gray-300 uppercase pl-20 md:pl-0 "
+                  >
+                    <span>Projets</span>
+                  </Link>
+                </li>
+                <Link href="/" className="medium-48 text-gray-300 uppercase ">
+                  <span>About</span>
+                </Link>
+
+                <Link
+                  href="mailto:hello@medjio.me"
+                  className="medium-48 text-gray-300 uppercase pl-20 md:pl-0 "
+                >
+                  <span>Contact</span>
+                </Link>
+              </ul>
+            </div>
+          </section>
         </div>
 
         <div className="hidden w-2/5 lg:flex items-center space-x-3  ">

@@ -71,6 +71,25 @@ body {
   }
 }
 
+/* menu mobile */
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #111111ef;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 40px;
+  align-items: center;
+  z-index: 5000;
+}
+
 /* animation slider */
 .scroller {
   overflow: hidden;

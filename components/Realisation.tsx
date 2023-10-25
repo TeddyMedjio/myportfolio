@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const Realisation = () => {
   return (
-    <div className=" relative bg-gray-30 lg:w-4/5 w-full h-screen px-5 md:px-[40px] lg:px-[50px] pb-[100px] overflow-auto z-50">
+    <div className=" relative bg-gray-30 lg:w-4/5 w-full h-screen px-5 md:px-[40px] lg:px-[50px] pb-[50px] overflow-auto z-50">
       <div className=" backdrop-blur-3xl absolute mx-auto top-0 left-0 w-full h-full -z-50 pb-96"></div>
       <div className="  overflow-hidden mx-auto right-0 absolute top-[40%] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full lg:h-2/3 lg:w-2/3 -z-[51]">
         <div className="green"></div>
@@ -27,7 +27,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500"
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Figma
@@ -63,7 +63,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500 "
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Figma
@@ -96,7 +96,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500"
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Figma
@@ -132,7 +132,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500"
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Figma
@@ -171,7 +171,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500 "
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Next JS
@@ -204,7 +204,7 @@ const Realisation = () => {
                 className="rounded-tl-lg rounded-tr-lg hover:scale-125 transform transition duration-500"
               />
             </div>
-            <div className="pt-[40px] px-8 py-9">
+            <div className="pt-[40px] px-6 lg:px-8 py-9">
               <div className="flex items-center flex-wrap mb-8 gap-4 ">
                 <p className="text-gray-20 border border-gray-20 rounded-md px-3 py-1 regular-13">
                   Figma

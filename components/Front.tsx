@@ -5,7 +5,7 @@ import Slidy from "./Slidy";
 
 const Front = () => {
   return (
-    <div className=" relative bg-gray-30 lg:w-4/5 w-full h-screen px-5 md:px-[40px] lg:px-[50px] pb-[100px] overflow-auto z-50">
+    <div className=" relative bg-gray-30 lg:w-4/5 w-full h-screen px-5 md:px-[40px] lg:px-[50px] pb-[50px] overflow-auto z-50">
       <div className=" backdrop-blur-3xl absolute mx-auto top-0 left-0 w-full h-full -z-50 pb-96"></div>
       <div className="  overflow-hidden mx-auto right-0 absolute top-[40%] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full lg:h-2/3 lg:w-2/3 -z-[51]">
         <div className="green"></div>

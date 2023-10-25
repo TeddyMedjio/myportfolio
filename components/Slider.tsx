@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Slider = () => {
   return (
-    <div className="scroller mt-20 w-full mx-auto ">
+    <div className="scroller mt-10 w-full mx-auto ">
       <div className="scroller__inner flex flex-nowrap gap-10 ">
         <Image
           src="/challenge.svg"
