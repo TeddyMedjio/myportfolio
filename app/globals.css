@@ -1,27 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: Inter;
+}
+
+/* FONTS */
+.medium-48 {
+  @apply text-[48px] font-[500];
+}
+
+.medium-32 {
+  @apply text-[32px] font-[500];
+}
+
+.medium-20 {
+  @apply text-[20px] font-[500];
+}
+
+.regular-18 {
+  @apply text-[18px] font-[400];
+}
+
+.regular-16 {
+  @apply text-[16px] font-[400];
+}
+.regular-13 {
+  @apply text-[13px] font-[400];
+}
+
+.green {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  height: 55%;
+  width: 45%;
+  background-color: #04ff5a;
+  border-radius: 50%;
+  animation: gradient 4s infinite;
+}
+
+.blue {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  height: 55%;
+  width: 50%;
+  background-color: #04f0ff;
+  border-radius: 50%;
+  animation: gradient 4s infinite;
+}
+
+.contain:after {
+  -webkit-backdrop-filter: blur(80px);
+  backdrop-filter: blur(80px);
+}
+
+@keyframes gradient {
+  70% {
+    transform: scale(1.2) translate(50px);
+  }
+}
+
+/* animation slider */
+.scroller {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller__inner {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+/* srolly */
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.slide {
+  overflow-x: hidden;
+}
+.slide .figure .items {
+  width: 20%;
+  float: left;
+}
+.slide .figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }

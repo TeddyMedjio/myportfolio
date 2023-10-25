@@ -1,11 +1,13 @@
-import Front from "@/components/Front";
+import Realisation from "@/components/Realisation";
 import Navbar from "@/components/Navbar";
 
-export default function Home() {
+const Page = () => {
   return (
     <main className="lg:flex items-center h-screen">
       <Navbar />
-      <Front />
+      <Realisation />
     </main>
   );
-}
+};
+
+export default Page;
