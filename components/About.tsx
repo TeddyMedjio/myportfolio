@@ -106,8 +106,8 @@ const About = () => {
               créativité.
               <br />
               <br />
-              J'aime le chiffre 3 je pense sa à un rapport avec le fait que je
-              sois née le 3e mois.
+              J&apos;aime le chiffre 3 je pense sa à un rapport avec le fait que
+              je sois née le 3e mois.
             </p>
           </div>
         </div>
