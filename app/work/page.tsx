@@ -7,6 +7,7 @@ const Page = () => {
     <>
       <Head>
         <title>Projets-N.Jean Claude </title>
+        <meta name="Projets" content="Work" />
       </Head>
       <main className="lg:flex items-center h-screen">
         <Navbar />
