@@ -1,12 +1,18 @@
 import Realisation from "@/components/Realisation";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 const Page = () => {
   return (
-    <main className="lg:flex items-center h-screen">
-      <Navbar />
-      <Realisation />
-    </main>
+    <>
+      <Head>
+        <title>Projets-N.Jean Claude </title>
+      </Head>
+      <main className="lg:flex items-center h-screen">
+        <Navbar />
+        <Realisation />
+      </main>
+    </>
   );
 };
 
