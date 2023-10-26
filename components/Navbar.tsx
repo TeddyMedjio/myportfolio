@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[80px] 2xl:py-[30px]  ">
       <div className=" flex flex-row lg:flex-col items-center justify-between w-full h-full ">
-        <div className=" px-8 py-10 lg:px-0 lg:py-0 flex items-center justify-between w-full lg:block lg:w-1/2 ">
+        <div className=" px-5 py-10 lg:px-0 lg:py-0 flex items-center justify-between w-full lg:block lg:w-1/2 ">
           <Link href="/">
             <Image
               src="/logo.svg"

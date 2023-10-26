@@ -108,14 +108,28 @@ const Front = () => {
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/xd.svg"
+                src="/javascript.svg"
                 height={66}
                 width={92}
                 alt="logo xd"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
+                src="/git.svg"
+                height={66}
+                width={92}
+                alt="logo photoshop"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
                 src="/photoshop.svg"
+                height={66}
+                width={92}
+                alt="logo photoshop"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/xd.svg"
                 height={66}
                 width={92}
                 alt="logo photoshop"
@@ -137,6 +151,13 @@ const Front = () => {
               />
               <Image
                 src="/aftereffect.svg"
+                height={66}
+                width={92}
+                alt="logo aftereffect"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/premier.svg"
                 height={66}
                 width={92}
                 alt="logo aftereffect"
