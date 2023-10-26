@@ -1,6 +1,6 @@
+import Head from "next/head";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
-import Head from "next/head";
 
 const page = () => {
   return (

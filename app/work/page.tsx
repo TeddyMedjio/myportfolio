@@ -1,6 +1,6 @@
+import Head from "next/head";
 import Realisation from "@/components/Realisation";
 import Navbar from "@/components/Navbar";
-import Head from "next/head";
 
 const Page = () => {
   return (
