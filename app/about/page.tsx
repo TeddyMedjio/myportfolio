@@ -1,19 +1,20 @@
-import Head from "next/head";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "A Propos | N. Jean Claude",
+  description: "I'am UI/UX Designer & Frontend dev",
+};
 
 const page = () => {
   return (
-    <>
-      <Head>
-        <title>A Propos | N. Jean Claude </title>
-        <meta name="A propos" content="About" key="desc" />
-      </Head>
+    <div>
       <main className="lg:flex items-center h-screen">
         <Navbar />
         <About />
       </main>
-    </>
+    </div>
   );
 };
 
