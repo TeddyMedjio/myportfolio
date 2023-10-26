@@ -6,8 +6,8 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Projets-N.Jean Claude </title>
-        <meta name="Projets" content="Work" />
+        <title>Projets | N. Jean Claude </title>
+        <meta name="Projets" content="Portfolio" key="work" />
       </Head>
       <main className="lg:flex items-center h-screen">
         <Navbar />
