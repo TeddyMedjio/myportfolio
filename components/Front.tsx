@@ -143,14 +143,21 @@ const Front = () => {
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/indesign.svg"
+                src="/html.svg"
                 height={66}
                 width={92}
-                alt="logo indesign"
+                alt="logo html"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/aftereffect.svg"
+                src="/css.svg"
+                height={66}
+                width={92}
+                alt="logo aftereffect"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/vscode.svg"
                 height={66}
                 width={92}
                 alt="logo aftereffect"
