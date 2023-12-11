@@ -13,7 +13,7 @@ const Front = () => {
       </div>
       <div className=" pt-[50px] lg:pt-[100px] mx-auto max-w-[1440px]">
         <h1 className="text-white medium-32 leading-snug lg:text-[48px] lg:leading-[58px] ">
-          UI/UX Designer & <br /> Frontend dev
+          Visual Designer & <br /> Frontend dev
         </h1>
 
         {/* card */}
@@ -101,10 +101,10 @@ const Front = () => {
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/tailwind.svg"
+                src="/react.svg"
                 height={66}
                 width={92}
-                alt="logo tailwind"
+                alt="logo react"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
@@ -115,31 +115,10 @@ const Front = () => {
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/git.svg"
+                src="/tailwind.svg"
                 height={66}
                 width={92}
-                alt="logo photoshop"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/photoshop.svg"
-                height={66}
-                width={92}
-                alt="logo photoshop"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/xd.svg"
-                height={66}
-                width={92}
-                alt="logo photoshop"
-                className=" 2xl:w-[184px] 2xl:h-[132px]"
-              />
-              <Image
-                src="/illustrator.svg"
-                height={66}
-                width={92}
-                alt="logo illustrator"
+                alt="logo tailwind"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
@@ -153,21 +132,42 @@ const Front = () => {
                 src="/css.svg"
                 height={66}
                 width={92}
-                alt="logo aftereffect"
+                alt="logo css"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
                 src="/vscode.svg"
                 height={66}
                 width={92}
-                alt="logo aftereffect"
+                alt="logo vscode"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
               <Image
-                src="/premier.svg"
+                src="/git.svg"
                 height={66}
                 width={92}
-                alt="logo aftereffect"
+                alt="logo git"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/photoshop.svg"
+                height={66}
+                width={92}
+                alt="logo photoshop"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/illustrator.svg"
+                height={66}
+                width={92}
+                alt="logo illustrator"
+                className=" 2xl:w-[184px] 2xl:h-[132px]"
+              />
+              <Image
+                src="/xd.svg"
+                height={66}
+                width={92}
+                alt="logo xd"
                 className=" 2xl:w-[184px] 2xl:h-[132px]"
               />
             </div>

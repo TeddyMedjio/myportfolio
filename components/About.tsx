@@ -6,12 +6,12 @@ const About = () => {
     <div className=" relative bg-gray-30 lg:w-4/5 w-full h-full px-5 md:px-[40px] lg:px-[50px]  overflow-auto z-50">
       <div className=" pt-[50px] lg:pt-[100px] mx-auto max-w-[1440px]">
         <h1 className="text-white medium-32 medium-32 leading-snug lg:text-[48px] lg:leading-[58px] ">
-          UI/UX Designer & <br className="md:hidden" />
+          Visual Designer & <br className="md:hidden" />
           Frontend dev
         </h1>
-        <p className="regular-16 mt-5 text-white">
+        {/* <p className="regular-16 mt-5 text-white">
           Basé au Cameroun à Douala plus précisement.
-        </p>
+        </p> */}
 
         <div className="mt-16 pb-10 flex">
           <div className="card hidden lg:block " data-color="blue">
