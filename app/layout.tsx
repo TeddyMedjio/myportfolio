@@ -15,7 +15,7 @@ export default function RootLayout({
       <meta property="og:type" content="website" />
       <meta
         property="og:image"
-        content="https://medjio.me/public/meta-banner.png"
+        content="https://medjio.me/images/meta-banner.png"
       />
       <title>N. Jean Claude</title>
       <body className="antialiased">{children}</body>
