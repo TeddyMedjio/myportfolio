@@ -19,7 +19,6 @@ export default function RootLayout({
       <meta name="description" content="I'am UI/UX Designer & Frontend dev" />
       <meta property="og:language" content="fr" />
       <meta property="og:site_name" content="medjio.me" />
-      <meta property="og:language" content="fr" />
       <meta name="twitter:author" content="@nganmedjio_jean" />
       <meta name="twitter:site" content="@nganmedjio_jean" />
       <meta name="twitter:card" content="summary_large_image" />
