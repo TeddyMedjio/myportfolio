@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "A Propos | N. Jean Claude",
+  title: "About | N. Jean Claude",
   description: "I'am UI/UX Designer & Frontend dev",
 };
 

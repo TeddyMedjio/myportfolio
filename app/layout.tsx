@@ -16,7 +16,7 @@ export default function RootLayout({
         name="keywords"
         content="Nganmedjio Jean Claude, web developer, software engineer, Next.Js, React.js, Front-end, Visual designer, JavaScript, UX.designer, Tailwind CSS, Graphic.designer, freelancer"
       />
-      <meta name="description" content="Visual designer & front-end dev" />
+      <meta name="description" content="I'am UI/UX Designer & Frontend dev" />
       <meta property="og:language" content="fr" />
       <meta property="og:site_name" content="medjio.me" />
       <meta property="og:language" content="fr" />
