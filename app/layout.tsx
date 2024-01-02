@@ -7,6 +7,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <meta name="author" content="Nganmedjio Jean Claude" />
+      <meta
+        name="title"
+        content="Nganmedjio Jean Claude - Visual designer & front-end dev"
+      />
+      <meta
+        name="keywords"
+        content="Nganmedjio Jean Claude, web developer, software engineer, Next.Js, React.js, Front-end, Visual designer, JavaScript, UX.designer, Tailwind CSS, Graphic.designer, freelancer"
+      />
+      <meta name="description" content="Visual designer & front-end dev" />
+      <meta property="og:language" content="fr" />
       <meta property="og:site_name" content="medjio.me" />
       <meta property="og:language" content="fr" />
       <meta name="twitter:author" content="@nganmedjio_jean" />
