@@ -43,7 +43,7 @@ export default function RootLayout({
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:image"
-        content="https://medjio.me/images/meta-banner.png"
+        content="https://medjio.me/images/meta-banner-medjio.jpg"
       />
       <body className="antialiased">{children}</body>
     </html>
