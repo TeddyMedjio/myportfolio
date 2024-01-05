@@ -6,7 +6,7 @@ export const metadata = {
     template: "%s | N. Jean Claude",
   },
   description:
-    "Presenting superior services through innovative concepts that dare to be different",
+    "Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro.",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
       />
       <meta
         property="og:description"
-        content="Helping brands thrive in the digital world Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Medjio"
+        content="Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro. © Code by Medjio"
       />
       <meta
         property="og:image"
@@ -38,7 +38,7 @@ export default function RootLayout({
       />
       <meta
         property="twitter:description"
-        content="Helping brands thrive in the digital world Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Medjio"
+        content="Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro. © Code by Medjio"
       />
       <meta
         property="twitter:image"
