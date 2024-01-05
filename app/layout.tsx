@@ -27,7 +27,7 @@ export default function RootLayout({
       />
       <meta name="description" content="I'am UI/UX Designer & Frontend dev" />
       <meta property="og:locale" content="fr" />
-      <meta property="og:site_name" content="Medjio" />
+      <meta property="og:site_name" content="N. Jean Claude" />
       <meta
         property="twitter:title"
         content="Nganmedjio Jean Claude • Freelance Designer &amp; Developer"
@@ -35,10 +35,10 @@ export default function RootLayout({
       <meta
         property="twitter:description"
         content="Helping brands thrive in the digital world Delivering tailor-made digital designs and building interactive websites from scratch. © Code by Medjio"
-      ></meta>
+      />
 
-      <meta name="twitter:author" content="@nganmedjio_jean" />
-      <meta name="twitter:site" content="@nganmedjio_jean" />
+      <meta name="twitter:author" content="@Nganmedjio_jean" />
+      <meta name="twitter:site" content="@Nganmedjio_jean" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
