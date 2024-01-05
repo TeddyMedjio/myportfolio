@@ -38,7 +38,7 @@ export default function RootLayout({
       />
 
       <meta name="twitter:author" content="@Nganmedjio_jean" />
-      <meta name="twitter:site" content="@Nganmedjio_jean" />
+      <meta name="twitter:site" content="www.twitter.com/Nganmedjio_jean" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
