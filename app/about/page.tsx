@@ -1,10 +1,8 @@
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "About | N. Jean Claude",
-  description: "I'am UI/UX Designer & Frontend dev",
+export const metadata = {
+  title: "About",
 };
 
 const page = () => {
