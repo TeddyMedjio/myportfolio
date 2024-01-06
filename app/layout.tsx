@@ -27,7 +27,7 @@ export default function RootLayout({
       />
       <meta
         property="og:image"
-        content="https://medjio.me/images/meta-banner-medjio.jpg"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg"
       />
       <meta property="og:site_name" content="N. Jean Claude" />
       <meta property="og:locale" content="fr" />
@@ -42,7 +42,7 @@ export default function RootLayout({
       />
       <meta
         property="twitter:image"
-        content="https://medjio.me/images/meta-banner-medjio.jpg"
+        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg"
       />
       <meta name="twitter:card" content="summary_large_image" />
 

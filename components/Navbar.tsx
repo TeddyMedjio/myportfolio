@@ -42,7 +42,6 @@ const Navbar = () => {
                   className=" group-hover:fill-white transition-all duration-300 ease-in-out "
                 />
               </svg>
-              {/* <Image src={home} alt="home icon" height={24} width={24} /> */}
               <p className="regular-18 2xl:text-3xl text-gray-20 ml-4 group-hover:text-white group-hover:underline transition-all duration-300 ease-in-out">
                 Home
               </p>
@@ -63,7 +62,6 @@ const Navbar = () => {
                   className=" group-hover:stroke-white transition-all duration-300 ease-in-out"
                 />
               </svg>
-              {/* <Image src={projet} alt="projet icon" height={24} width={24} /> */}
               <p className="regular-18 2xl:text-3xl text-gray-20 ml-4 group-hover:text-white group-hover:underline transition-all duration-300 ease-in-out">
                 Projets
               </p>
