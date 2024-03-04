@@ -14,9 +14,15 @@ body {
   font-family: Inter;
 }
 
+.title {
+  font-size: clamp(37px, 5vw, 78px);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
 /* FONTS */
 .medium-48 {
-  @apply text-[48px] font-[500];
+  @apply text-[68px] font-[500];
 }
 
 .medium-32 {

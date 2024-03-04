@@ -12,8 +12,9 @@ const Front = () => {
         <div className="blue"></div>
       </div>
       <div className=" pt-[50px] lg:pt-[100px] mx-auto max-w-[1440px]">
-        <h1 className="text-white medium-32 leading-snug lg:text-[48px] lg:leading-[58px] ">
-          Visual Designer & <br /> Frontend dev
+        <h1 className="text-white title ">
+          UX & UI designer <span className=" font-normal">+</span> <br />{" "}
+          Frontend dev
         </h1>
 
         {/* card */}
@@ -38,7 +39,7 @@ const Front = () => {
             </div>
             <div className="bg-gray-10 border border-gray-700 rounded-lg flex flex-col justify-center py-9">
               <h1 className=" medium-48 text-white text-center">
-                8<span className="regular-16">Ans</span>
+                8<span className="regular-18">Ans</span>
               </h1>
               <p className="regular-18 2xl:text-[20px] 2xl:leading-[28px] text-gray-20 text-center">
                 Experience en Design
@@ -46,7 +47,7 @@ const Front = () => {
             </div>
           </div>
           <div className="bg-gray-10 border border-gray-700 rounded-lg pt-[40px] px-8 py-9 flex flex-col items-center justify-center">
-            <h2 className=" medium-32 2xl:text-[48px] 2xl:leading-[58px] text-white mb-5 leading-tight">
+            <h2 className=" medium-32 2xl:text-[50px] 2xl:leading-[58px] text-white mb-5 leading-tight">
               Je fais des sites et des designs, et je le fais bien.
             </h2>
             <p className="regular-18 text-gray-20 2xl:text-[20px] 2xl:leading-[28px] ">
