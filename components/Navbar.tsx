@@ -153,7 +153,7 @@ const Navbar = () => {
           {/* mobile menu */}
           <section className=" flex lg:hidden">
             <div
-              className="lg:hidden space-y-2 cursor-pointer  py-4 "
+              className="lg:hidden space-y-2 cursor-pointer py-4"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
               <span className="block h-0.5 w-6 rounded bg-white"></span>
@@ -162,7 +162,7 @@ const Navbar = () => {
             </div>
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
               <div
-                className="absolute top-0 right-0 pt-8 md:pt-[68px] pr-4 md:pr-9 cursor-pointer"
+                className="absolute top-0 right-0 pt-14 md:pt-[68px] pr-4 md:pr-9 cursor-pointer"
                 onClick={() => setIsNavOpen(false)}
               >
                 <svg

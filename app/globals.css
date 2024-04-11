@@ -22,7 +22,7 @@ body {
 
 /* FONTS */
 .medium-48 {
-  @apply text-[68px] font-[500];
+  @apply text-[48px] font-[500];
 }
 
 .medium-32 {
