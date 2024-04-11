@@ -186,7 +186,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/work"
-                    className="medium-48 text-gray-300 uppercase pl-20 md:pl-0 "
+                    className="medium-48 text-gray-300 uppercase md:pl-0 "
                   >
                     <span>Projets</span>
                   </Link>
@@ -200,7 +200,7 @@ const Navbar = () => {
 
                 <Link
                   href="mailto:hello@medjio.me"
-                  className="medium-48 text-gray-300 uppercase pl-20 md:pl-0 "
+                  className="medium-48 text-gray-300 uppercase md:pl-0 "
                 >
                   <span>Contact</span>
                 </Link>
