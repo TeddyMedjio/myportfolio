@@ -1,12 +1,77 @@
 import "./globals.css";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import StructuredData from "@/components/StructuredData";
 
 export const metadata = {
+  metadataBase: new URL("https://medjio.me"),
   title: {
-    default: "N. Jean Claude",
+    default: "N. Jean Claude • Freelance Designer & Developer",
     template: "%s | N. Jean Claude",
   },
   description:
-    "Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro.",
+    "Designer UX/UI et développeur frontend freelance avec 8+ ans d'expérience. Spécialisé en Next.js, React, et Tailwind CSS. Plus de 100 projets réalisés et 150+ clients satisfaits.",
+  authors: [{ name: "Nganmedjio Jean Claude" }],
+  creator: "Nganmedjio Jean Claude",
+  keywords: [
+    "Nganmedjio Jean Claude",
+    "Designer UX/UI",
+    "Développeur Frontend",
+    "Freelance Designer",
+    "Next.js Developer",
+    "React Developer",
+    "Tailwind CSS",
+    "Web Developer",
+    "UI Designer",
+    "UX Designer",
+    "Figma Designer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "Freelance Cameroun",
+    "Web Design",
+    "Développement Web",
+  ],
+  openGraph: {
+    title: "N. Jean Claude • Freelance Designer & Developer",
+    description:
+      "Designer UX/UI et développeur frontend freelance avec 8+ ans d'expérience. Spécialisé en Next.js, React, et Tailwind CSS. Plus de 100 projets réalisés et 150+ clients satisfaits.",
+    url: "https://medjio.me",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg",
+        width: 1200,
+        height: 630,
+        alt: "N. Jean Claude - Freelance Designer & Developer",
+      },
+    ],
+    siteName: "N. Jean Claude Portfolio",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "N. Jean Claude • Freelance Designer & Developer",
+    description:
+      "Designer UX/UI et développeur frontend freelance avec 8+ ans d'expérience. Spécialisé en Next.js, React, et Tailwind CSS.",
+    images: [
+      "https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg",
+    ],
+    creator: "@nganmedjio_jean",
+    site: "@nganmedjio_jean",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "google-site-verification-code",
+  },
 };
 
 export default function RootLayout({
@@ -16,44 +81,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <meta name="author" content="Nganmedjio Jean Claude" />
-      <meta
-        property="og:title"
-        content="Nganmedjio Jean Claude • Freelance Designer &amp; Developer"
-      />
-      <meta
-        property="og:description"
-        content="Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro. © Code by Medjio"
-      />
-      <meta
-        property="og:image"
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg"
-      />
-      <meta property="og:site_name" content="N. Jean Claude" />
-      <meta property="og:locale" content="fr" />
-      <meta property="og:type" content="website" />
-      <meta
-        property="twitter:title"
-        content="Nganmedjio Jean Claude • Freelance Designer &amp; Developer"
-      />
-      <meta
-        property="twitter:description"
-        content="Aider les marques à prospérer dans le monde numérique. Proposer des conceptions numériques sur mesure et créer des sites Web interactifs à partir de zéro. © Code by Medjio"
-      />
-      <meta
-        property="twitter:image"
-        content="https://res.cloudinary.com/dqfd5g2fd/image/upload/v1704556507/zewudixqzlomjvhiwkmm.jpg"
-      />
-      <meta name="twitter:card" content="summary_large_image" />
-
-      <meta
-        name="keywords"
-        content="Nganmedjio Jean Claude, web developer, Next.Js, React.js, Front-end, Visual designer, JavaScript, UX.designer, Tailwind CSS, Graphic.designer, freelancer"
-      />
-
-      <meta name="twitter:author" content="@nganmedjio_jean" />
-      <meta name="twitter:site" content="@nganmedjio_jean" />
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <StructuredData />
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+          <GoogleAnalytics
+            measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}
+          />
+        )}
+        {children}
+      </body>
     </html>
   );
 }

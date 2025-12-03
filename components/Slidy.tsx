@@ -9,35 +9,35 @@ const Slidy = () => {
             src="/notary.jpg"
             width={1440}
             height={720}
-            alt=""
+            alt="Projet Notary - Design et développement web"
             className="items w-full h-full"
           />
           <Image
             src="/finsura.jpg"
             width={1440}
             height={720}
-            alt=""
+            alt="Projet Finsura - Interface utilisateur moderne"
             className="items w-full h-full"
           />
           <Image
             src="/barbershop.jpg"
             width={1440}
             height={720}
-            alt=""
+            alt="Projet Barbershop - Site web responsive"
             className="items w-full h-full"
           />
           <Image
             src="/zuhechia.jpg"
             width={1440}
             height={720}
-            alt=""
+            alt="Projet Zuhechia - Application web"
             className="items w-full h-full"
           />
           <Image
             src="/emarketing.jpg"
             width={1440}
             height={720}
-            alt=""
+            alt="Projet E-Marketing - Plateforme marketing digitale"
             className="items w-full h-full"
           />
         </div>
