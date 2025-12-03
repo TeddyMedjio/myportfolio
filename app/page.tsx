@@ -1,11 +1,11 @@
 import Front from "@/components/Front";
-import Navbar from "@/components/Navbar";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
     <div>
       <main className="lg:flex items-center h-screen">
-        <Navbar />
+        <Nav />
         <Front />
       </main>
     </div>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navbar = () => {
+const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <div className=" bg-gray-10 lg:w-1/5 lg:h-screen lg:py-[80px] 2xl:py-[30px]  ">
@@ -249,4 +249,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
